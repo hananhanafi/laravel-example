@@ -174,6 +174,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        'MobileDetect' => Riverskies\Laravel\MobileDetect\MobileDetectServiceProvider::class,
 
     ],
 
